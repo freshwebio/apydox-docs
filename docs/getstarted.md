@@ -1,5 +1,5 @@
 ---
-id: doc3
+id: getstarted
 title: This is document number 3
 ---
 

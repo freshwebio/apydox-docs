@@ -6,6 +6,60 @@
  */
  
 /* your custom css */
+body {
+  font-family: $bodyFont;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $headingFont;
+}
+
+.navigationSlider .slidingNav ul li a {
+  font-family: 'Roboto Slab', sans-serif;
+  padding-right: 25px;
+}
+
+.primaryBanner {
+  background-color: $primaryColor;
+}
+
+.primaryBanner .projectTitle {
+  color: $lightGrey;
+  font-weight: 300;
+}
+
+.primaryBanner .projectTitle > small {
+  font-weight: 300;
+}
+
+.primaryBanner .button {
+  color: $primaryColor;
+  background: $lightGrey;
+  font-family: 'Roboto Slab', sans-serif;
+  text-transform: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.primaryBanner .button:hover {
+  background: $grey;
+}
+
+.navigationSlider .slidingNav ul li:last-child a {
+  padding-right: 6px;
+}
+
+.footerLink {
+  color: $grey;
+}
+
+.footerLink:hover {
+  color: $lightGrey;
+}
+
+.gridBlock .fourByGridBlock img {
+  max-height: 68px;
+}
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
